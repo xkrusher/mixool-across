@@ -10,7 +10,7 @@ if [[ ! -f "/workerone" ]]; then
     "inbounds": 
     [
         {
-            "port": "9527","listen": "0.0.0.0","protocol": "vless",
+            "port": "9000","listen": "0.0.0.0","protocol": "vless",
             "settings": {"clients": [{"id": "e1fc9bb5-66d4-432c-8461-47d6d6c70678"}],"decryption": "none"},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/vless"}}
         }
